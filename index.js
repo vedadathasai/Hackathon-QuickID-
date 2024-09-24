@@ -12,7 +12,7 @@ const pool = mysql.createPool({
   connectionLimit: 10, // Adjust according to your needs
   host: 'localhost',
   user: 'root',
-  password: 'Thathagaru@50',
+  password: 'password',
   database: 'hackathon2'
 });
 const storage = multer.diskStorage({
